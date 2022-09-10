@@ -498,12 +498,19 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
   font-weight: 700;
   font-family: "Source Sans Pro", Arial, sans-serif;
+  max-width: 140px;
+  max-height: 140px;
   
 }
 .fh5co-nav #fh5co-logo a {
   color: rgba(9, 78, 168, 0.856);
   position: relative;
   padding-left: 0px;
+
+}
+
+.fh5co-nav #fh5co-logo a img {
+  width: -webkit-fill-available;
 }
 .fh5co-nav #fh5co-logo a span {
   color: rgb(9, 78, 168, 0.856);
